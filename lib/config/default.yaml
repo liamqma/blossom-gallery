@@ -1,0 +1,24 @@
+##
+## Default Configurations File
+##
+## DO NOT change or overwrite values in this file, instead use the
+## corresponding environment configuration files.
+##
+
+# koa application
+app:
+    protocol: http
+    host: ~
+    proxy: true      # allow proxy headers
+    port: 8080       # port to listen
+    logger: true     # enable/disable koa-logger
+    debug: ~         # DEBUG env
+    staticCache: ~
+
+    # static proxy, used for proxying requests to webpack-dev-server
+    staticProxy: ~
+        # - host: http://localhost
+        # - port: 9876
+        # - match: ^/assets/
+
+    imagePath: ./static/assets/img

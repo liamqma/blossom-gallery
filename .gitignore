@@ -1,0 +1,12 @@
+.DS_Store
+.idea/
+.vscode/
+node_modules/
+bower_components/
+build/
+coverage/
+lib/config/local*.yaml
+!lib/config/local.sample.yaml
+*.log
+Dockerrun.aws.json
+temp/
