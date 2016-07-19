@@ -5,6 +5,7 @@
         "syntax-async-functions",
         "transform-class-properties",
         "transform-react-jsx",
-        "transform-object-rest-spread"
+        "transform-object-rest-spread",
+        "add-module-exports"
     ]
 }
